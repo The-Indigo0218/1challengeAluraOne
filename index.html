@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge</title>
+</head>
+
+<body>
+    <div id="contenedor" class="contenedor">
+        <header class="header ">
+            <h1>Encriptador de textos</h1>
+        </header>
+        <main class="contenido">
+            <section class="contenedor--section">
+
+                <article class=" article contenido__texto">
+                    <textarea class="textarea" id="textareaEntrada" name="entrada"
+                        placeholder="Ingrese el texto"></textarea>
+                    <p class="error" id="error"></p>
+                    <div class="btnOpciones">
+                        <button id="btn1" class="btn btn1">Cifrar</button>
+                        <button id="btn2" class="btn btn2">Descifrar</button>
+                        <img class="imgLimpiar" id="img" src="/img/icons8-eliminar.svg" alt="clear">
+                    </div>
+                </article>
+                <article class=" article contenido__encriptado">
+                    <textarea class="textarea textareaSalida" id="textareaSalida" placeholder="Aqui se mostrara el texto"
+                    name="entrada" disabled></textarea>
+                    <p class="copiado" id="copiado"></p>
+                    <button id="copiar" class="btn copiar">Copiar</button>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <script src="script.js" ></script>
+            <a href="https://github.com/The-Indigo0218">Miguel González</a>
+        </footer>
+    </div>
+</body>
+
+</html>
